@@ -1,5 +1,7 @@
 package twentyThree;
 
+import java.util.HashMap;
+
 public class MajorityElementHashMap {
         public int majorityElement(int[] nums) {
             // First thought is using a hash map to store frequencies and if any of the frequencies
