@@ -1,4 +1,4 @@
-package twentyThree;
+package twentyFour;
 
 public class ContainsDuplicateTwo {
 }

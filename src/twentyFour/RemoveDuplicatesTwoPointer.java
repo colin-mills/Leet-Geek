@@ -1,4 +1,4 @@
-package twentyThree;
+package twentyFour;
 
 public class RemoveDuplicatesTwoPointer {
     public int removeDuplicates(int[] nums) {

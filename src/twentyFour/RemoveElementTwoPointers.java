@@ -1,4 +1,4 @@
-package twentyThree;
+package twentyFour;
 
 public class RemoveElementTwoPointers {
         public int removeElement(int[] nums, int val) {
