@@ -16,5 +16,7 @@ public class LongestCommonPrefixSorted {
             ans.append(first.charAt(i));
         }
         return ans.toString();
+        // Runtime is O(m * log(n) + 2m) where n is the size of the array and m is average length of string
+        // Memory usage is O(m) as we sort the array in place and the largest return value shall be m
     }
 }
