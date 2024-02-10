@@ -1,5 +1,7 @@
 package twentyFour;
 
+import java.util.HashMap;
+
 public class IsSubsequenceTwoPointers {
     public boolean isSubsequence(String s, String t) {
         // Classic two pointer solution
@@ -11,6 +13,8 @@ public class IsSubsequenceTwoPointers {
 
         // Edge case
         if (s.length() == 0) return true;
+
+
 
         int sChar = 0;
         for (int tChar = 0; tChar < t.length(); tChar++) {
