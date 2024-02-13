@@ -27,6 +27,7 @@ public class SummaryRangesTraversal {
 
         return results;
 
+
         // Time complexity: O(n) to traverse array
         // Space complexity: O(n) as the result is a list of strings that could be equal to the length of nums
 
